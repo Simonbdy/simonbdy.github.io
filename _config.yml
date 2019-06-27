@@ -1,0 +1,9 @@
+title: Dico meca
+logo: /assets/img/logo.png
+description: A dictionnary project for mechanical terms
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+permalink: /:categories/:title
+kramdown:
+    auto_ids: true
