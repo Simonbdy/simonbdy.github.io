@@ -36,6 +36,10 @@
   		{%- assign sorted_post = site.posts | sort: 'title' -%}
   		{%- for post in sorted_post -%}
     			<li class="board">
+    				<a href="index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.title }}</a>
+    			</li>
+  		{%- endfor -%}
+    </ul>
     				<a href="index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' }}">{{ post.title }}</a>
     			</li>
   		{%- endfor -%}
