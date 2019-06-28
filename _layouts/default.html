@@ -40,7 +40,13 @@
     			</li>
   		{%- endfor -%}
     </ul>
-    				<a href="index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' }}">{{ post.title }}</a>
+	
+	    <b>Français :</b></li>
+    <ul>
+  		{%- assign sorted_post = site.posts | sort: 'name_fr' -%}
+  		{%- for post in sorted_post -%}
+    			<li class="board">
+    				<a href="index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_fr }}</a>
     			</li>
   		{%- endfor -%}
     </ul>
