@@ -1,0 +1,267 @@
+Categorie,Nom français,Nom anglais,Nom espagnol,Définition française,Définition anglaise,Illustration,Illustration 2,Illustration 3,Source
+"Design mécanique, Procédé de manufacturing",Alésage,Bore,,Opération qui consiste à usiner avec soin la surface intérieure d’un cylindre ou de toute autre pièce creuse. Le résultat de cette opération est un diamètre intérieur.,"A hole drilled or milled by boring (manufacturing), especially a large hole.",,,,
+"Eléments tournants, Transmission, Composant mécanique",Arbre,Shaft,,"Cylindre ou cone jouant le rôle d'axe de rotation, transmettant un couple.","Rotating machine element, usually circular in cross section, which is used to transmit power from one part to another, or from a machine which produces power to a machine which absorbs power.",,,,
+Géométrie,Arête,Edge,,Rebord entre deux faces d'une pièce.,Limit between two faces of a part. ,,,,
+"Eléments tournants, Composant mécanique",Axe,Axis,,"Tige métallique sur laquelle on place une ou plusieurs roues d'engrenages, ou gallet, ou bien élément tournant en sortie de moteur.","Thin metal mechanical shaft used for the assembly of gears, rollers or wheels, around which they turn freely.
+Or as a motor's output.",,,,
+Composant mécanique,Bague,"Ring, Shaft collar",,"Pièce fixée ou libre placée autour d'un axe ou d'un arbre. Peut faire office d'entretoise ou de pallier lisse, ou bien de collier de sertissage.","Machine component found in many power transmission applications, most notably motors and gearboxes. The collars are used as mechanical stops, locating components, and bearing faces.",,,,
+"Outil / instrument / machine, Travail du bois",Bédane (masculin),Mortise chisel,,"(Nom masculin) Outil proche du ciseau à bois, mais plus épais, ce qui lui donne plus de résistance.",Thick chisel,,,,
+"Eléments tournants, Composant mécanique",Bielle,"Rod, connecting rod, conrod",,"Pièce dotée de deux articulations, une à chaque extrémité, dans le but de transmettre une force, un mouvement ou une position1. L'articulation à chaque extrémité de la bielle peut être un pivot ou une rotule.","Shaft which connects a piston to a crank or crankshaft in a reciprocating engine. Together with the crank, it forms a simple mechanism that converts reciprocating motion into rotating motion.",,,,
+Fonction mécanique,Biseau,Bevel,,Surface oblique d'un objet.,Edge of a structure that is not perpendicular to the faces of the piece. The words bevel and chamfer overlap in usage,,,,
+Fonction mécanique,Bossage,Boss,,Saillie prévue à dessein sur une pièce afin de limiter la surface usinée.,,,,,
+Élements de fixation,Boulon,Bolt,,Ensemble formé par une vis et un écrou. ,Form of threaded fastener with an external male thread.,,,,
+Composant mécanique,Bride,Flange,,"Couronne terminant un cylindre, un tuyau ou un arbre et ayant pour fonction d’en permettre l’assemblage avec une pièce analogue à l’aide de boulons. Cette appellation désigne également des pièces rapportées jouant le même rôle ou des rôles analogues.","External or internal ridge, or rim (lip), for strength, as the flange of an iron beam such as an I-beam or a T-beam; or for attachment to another object, as the flange on the end of a pipe, steam cylinder, etc., or on the lens mount of a camera; or for a flange of a rail car or tram wheel.",,,,
+Composant mécanique,Buselure,Bushing,,"Pièce cylindrique creuse à loger dans un alésage, destinée à absorber les chocs et les vibrations dans certains organes mécaniques, ou à assurer l'étanchéité.","Internal and hollow shaft fitting into a bore, used to absorb shoks and vibrations, or waterproofing a mechanism.",,,,
+Fonction mécanique,Butée,"Stop, end wall",,Pièce ou partie du pièce ayant pour fonction de stoper mécaniquement la rotation ou translation d'une autre pièce en mouvement dans un même assemblage.,,,,,
+Outil / instrument / machine,Cale (d'épaisseur),"Shim, spacer",,Objet servant à combler un vide ou à immobiliser une partie mobile afin qu'elle ne puisse plus bouger.,"Thin and often tapered or wedged piece of material, used to fill small gaps or spaces between objects. Shims are typically used in order to support, adjust for better fit, or provide a level surface. Shims may also be used as spacers to fill gaps between parts subject to wear.",,,,
+Outil / instrument / machine,Cale à poncer,Sanding block,,"Pièce en bois, en liège, en plastique ou en caoutchouc servant à recevoir un abrasif afin de poncer à la main à plat d'une manière uniforme.","Block used to hold sandpaper. In its simplest form, it is a block of wood or cork with one smooth flat side. The user wraps the sandpaper around the block, and holds it in place (by inserting a fitted piece of cardboard under the sandpaper, one can soften the impact on the wood and protect against tears or uneven wear on the sandpaper). Sanding blocks are helpful because they prevent the ""waves"" created by plain sandpaper.",,,,
+Composant mécanique,Came,Cam,,Pièce profilée animée d’un mouvement de rotation communiquant à une tige un mouvement rectiligne alternatif suivant une loi déterminée.,,,,,
+Fonction mécanique,"Cannelure, arbre cannelé",Spline shaft,,"Rainures taillées dans l'arbre ou dans le moyeu. Elles permettent de transmettre des couples importants, l'une mâle (l'arbre), l'autre femelle (le moyeu) ; dans certains cas, le moyeu peut coulisser sur l'arbre. Elles peuvent être à flancs parallèles ou à flancs curvilignes.","Ridges or teeth on a drive shaft that mesh with grooves in a mating piece and transfer torque to it, maintaining the angular correspondence between them",,,,
+Fonction mécanique,Chambrage,Counterboring,,Evidement réalisé à l’intérieur d’un cylindre afin de réduire la portée de l'arbre contenu dans le cylindre. ,"Cylindrical flat-bottomed hole that enlarges another coaxial hole, or the tool used to create that feature. A counterbore hole is typically used when a fastener, such as a socket head cap screw, is required to sit flush with or below the level of a workpiece's surface.",,,,
+Design mécanique,Chanfrein,Chamfer,,"Petite surface formée par une arête abattue. Cette surface plate souvent obtenue par limage de l'arête d'une pièce en pierre, en bois ou en métal. Généralement le chanfrein entre deux faces à angle droit est à 45°.",Transitional edge between two faces of an object. It can also be known as a bevel but connotes more often cutting and is more often 45° with respect to the two adjoining faces.,,,,
+Fonction mécanique,Chape,"Clevis, fork",,Sorte de fourche permettant la liaison de deux pièces par l’intermédiaire d’un axe d’articulation,"Three-piece fastener system consisting of a clevis, clevis pin, and tang. The clevis is a U-shaped piece that has holes at the end of the prongs to accept the clevis pin. The clevis pin is similar to a bolt, but is only partially threaded or unthreaded with a cross-hole for a split pin. The tang is a piece that fits in the space within the clevis and is held in place by the clevis pin.",,,,
+Composant mécanique,Charnière,Hinge,,"Elément de mécanisme fonctionnant selon le principe d'une liaison pivot. Fréquemment utilisées en menuiserie, les charnières permettent l'articulation de battants non démontables. Une ""charnière"" est en fait composée de trois parties:
+
+une immobile (fixée sur le montant de la porte) — le charnier;
+une intermédiaire (l'axe) — le gond;
+une mobile (fixée sur la porte elle-même) — la charnière.","Mechanical bearing that connects two solid objects, typically allowing only a limited angle of rotation between them. Two objects connected by an ideal hinge rotate relative to each other about a fixed axis of rotation: all other translations or rotations being prevented, and thus a hinge has one degree of freedom.",,,,
+Composant mécanique,Cheville,"Wall plug, anchor",,"Système d'assemblage sous forme d'un petit cylindre plastique ou métal destiné à être inserré dans un mur, puis à y accueillir une vis de fixation. Différents types et matériaux pour différents types et matériaux de murs.
+",Plastic insert used to enable the attachment of a screw in material that is porous or brittle or that would otherwise not support the weight of the object attached with the screw.,,,,
+Composant mécanique,"Circlip, anneau élastique","Circlip, lock-ring, snap-ring",,"Composants d'assemblage mécanique généralement montés dans des gorges réalisées sur des portées cylindriques extérieures (arbres, axes, …) ou dans des alésages. Ils permettent de réaliser des arrêts axiaux, des rattrapages de jeu destinés à réduire le bruit de fonctionnement des mécanismes, etc.","Type of fastener or retaining ring consisting of a semi-flexible metal ring with open ends which can be snapped into place, into a machined groove on a dowel pin or other part to permit rotation but to prevent lateral movement. There are two basic types: internal and external, referring to whether they are fitted into a bore or over a shaft. Circlips are often used to secure pinned connections.",,,,
+"Outil / instrument / machine, Travail du bois",Ciseau,Chisel,,"Outil de menuisier, d'ébéniste, de luthier ou encore de charpentier. Il est composé d'une lame en acier trempé, appelée planche, dont une des extrémités est taillée en biseau et extrêmement affûtée pour permettre le travail du bois. L'autre extrémité, appelée soie, est fichée dans l'axe d'un manche, en bois ou en matière synthétique, pour une meilleure prise en main. Lorsque le manche est en bois, il est cerclé de bagues métalliques, appelées ""viroles"", à chaque extrémité pour éviter que le bois n'éclate. Traditionnellement, les manches de ciseaux à bois étaient façonnés dans du charme, pour la solidité.","Tool with a characteristically shaped cutting edge (such that wood chisels have lent part of their name to a particular grind) of blade on its end, for carving or cutting a hard material such as wood, stone, or metal by hand, struck with a mallet, or mechanical power. The handle and blade of some types of chisel are made of metal or of wood with a sharp edge in it.",,,,
+Composant mécanique,Clavette,Key,,"Pièce destinée à l’assemblage, se logeant dans des mortaises ou des rainures pratiquées dans des pièces à assembler.",Machine element used to connect a rotating machine element to a shaft.,,,,
+Composant mécanique,Clinquant,"Shim, foil",,"Tôle d'acier très mince utilisée notamment comme cale d'épaisseur, ou pour rendre de l'épaisseur à une partie usée de mécanisme.","Thin sheet of metal, usually manufactured with a rolling mill machine. Can be used as a spacer in order to give thickness to a worn out component.",,,,
+Fonction mécanique,Clip,Clip,,,,,,,
+"Eléments tournants, Composant mécanique",Collerette,Flange,,"Partie en forme de col terminant une pièce mécanique, comme un palier, et permettant son assemblage avec une autre pièce. Arret en translation, etc.","xternal or internal ridge, or rim (lip), for strength, as the flange of an iron beam such as an I-beam or a T-beam; or for attachment to another object, as the flange on the end of a pipe, steam cylinder, etc., or on the lens mount of a camera; or for a flange of a rail car or tram wheel.",,,,
+Fonction mécanique,Collet,Collar,,"Couronne en saillie sur une pièce cylindrique. 
+Voir embase",,,,,
+Composant mécanique,Collet,Douille de serrage / bague de serrage,,,"Subtype of chuck that forms a collar around an object to be held and exerts a strong clamping force on the object when it is tightened, usually by means of a tapered outer collar. It may be used to hold a workpiece or a tool.",,,,
+Composant mécanique,"Collier, collier de serrage","Hose clamp, hose clip, hose lock",,"Composant mécanique dont la destination principale est le maintien en position d'un tuyau souple ou durite (flexible) sur un tube (rigide) par emmanchement du tube dans le tuyau. En fournissant une pression de serrage radiale uniformément répartie, il garantit l'étanchéité de la jointure ainsi formée.",Device used to attach and seal a hose onto a fitting such as a barb or nipple.,,,,
+Design mécanique,"Congé, arrondi",Fillet,,"Congé : Surface à section circulaire partielle destinée à raccorder deux surfaces formant un angle rentrant. 
+Arrondi : Surface à section circulaire partielle et destinée à supprimer une arête vive.",Rounding of an interior or exterior corner of a part design. ,,,,
+Design mécanique,Coque,"Shell, case, casing",,"Éléments à faible épaisseur entourant les parties fonctionnelles d'un système mécanique, et visibles de l'extérieur pour l'en protéger et/ou pour un effet visuel.
+La partie invisible de la coque peut avoir des éléments fonctionnels, ou non.",,,,,
+Transmission de puissance,Coupleur,Coupler,,Pièce permettant la jonction cylindrique entre un deux axes tournants.,Part that allows cylindrical connexion between two rotating axis.,,,,
+Transmission de puissance,Courroie,Belt,,Pièce utilisée pour la transmission du mouvement. Elle est construite dans un matériau souple. Elle est entraînée par et entraîne elle-même des poulies.,"Loop of flexible material used to link two or more rotating shafts mechanically, most often parallel. Belts may be used as a source of motion, to transmit power efficiently, or to track relative movement. Belts are looped over pulleys and may have a twist between the pulleys, and the shafts need not be parallel.",,,,
+"Eléments tournants, Composant mécanique",Coussinet,Bearing shell,,"Buselure, en une ou deux pièces, éventuellement munie d’oreilles ou joues, dans laquelle tourne le tourillon d’un arbre.",,,,,
+Composant mécanique,"Crapaudine, palier vertical à charge axiale","Pivot bearing, socket bearing, step bearing",,"Pièce de métal constituée par un palier de butée destiné à recevoir l'extrémité du pivot d'un arbre vertical et un palier de guidage destiné à absorber les efforts radiaux.
+Le but est de permettre la rotation d'un arbre dont la charge est dans le prolongement de son axe.",,,,,
+Ensemble de pièces mécaniques,Crémaillère,Rack and pinion,,"Éléments d'engrenages composés d'un pignon et d'une barre dentée, ou secteur de couronne dentée de rayon très grand (infini, si la crémaillère est parfaitement droite). Son mouvement rotatif (via le pignon) devient alors un mouvement linéaire.","Type of linear actuator that comprises a pair of gears which convert rotational motion into linear motion. A circular gear called ""the pinion"" engages teeth on a linear ""gear"" bar called ""the rack""; rotational motion applied to the pinion causes the rack to move relative to the pinion, thereby translating the rotational motion of the pinion into linear motion.",,,,
+Fonction mécanique,"Décrochement, redent",Sawtooth,,Surface en retrait d’une surface et parallèle à celle-ci. ,,,,,
+Design mécanique,"Dégagement, sortie d'outil",Undercut,,"Evidement généralement destiné à éviter le contact de deux pièces suivant une ligne, ou assurer le passage d’une pièce. ",,,,,
+"Outil / instrument / machine, Travail du bois",Dégauchisseuse,Jointer,,"Machine-outil de travail du bois ( charpente, menuiserie ... ) qui permet de dégauchir des pièces de bois brutes, c'est-à-dire les rendre droites et planes en dressant leurs faces qui forment un angle de 90° à 135°.",Woodworking machine used to produce a flat surface along a board's length.,,,,
+Procédé de manufacturing,Dépouille,Draft angle,,Inclinaison donnée aux surfaces en vue d’assurer la possibilité ou l’aisance du démoulage.,,,,,
+Géométrie,Diamètre,Diameter,,Segment de droite passant par le centre et limité par les points du cercle ou de la sphère. Le diamètre est aussi la longueur de ce segment.,,,,,
+Composant mécanique,Douille,"Sleeve, socket",,Pièce cylindrique ou conique creuse posée sur une pièce pleine.,,,,,
+Fonction mécanique,douille,Socket,,"Ouverture dans laquelle rentre une autre pìece mécanique ou de fixation.
+
+ou
+
+Embout d'outil pour visser ou dévisser un élément de fixation.","Opening in any fitting that matches the outside diameter of another mechanical part.
+
+or
+
+Receptacle into which a tapered tool is inserted.",,,,
+"Élements de fixation, Composant mécanique",Eclisse,Joint plate,,,,,,,
+Élements de fixation,Ecrou,"Bolt, nut",,,,,,,
+Fonction mécanique,Embase,"Base, collar",,"Elément d’une pièce destiné à servir de base à une autre pièce. 
+Voir collet.",,,,,
+Ensemble de pièces mécaniques,Embrayage,Clutch,,"Dispositif d'accouplement entre un arbre dit moteur et un autre dit récepteur. Du fait de sa transmission par adhérence, il permet une mise en charge progressive de l'accouplement ce qui évite les à-coups qui pourraient provoquer la rupture d'éléments de transmission ou l'arrêt du moteur dans le cas d'une transmission avec un moteur thermique.",Mechanical device which engages and disengages power transmission especially from driving shaft to driven shaft.,,,,https://www.carthrottle.com/post/engineering-explained-clutch-basics-and-performance-clutches/
+Fonction mécanique,Embrèvement,Dimpling,,"Forme emboutie dans une tôle et destinée à servir de logement pour une pièce ne devant pas être en saillie.
+ - ou -  
+Assemblage par embrèvement.",,,,,
+Outil / instrument / machine,Emprunte de tournevis,Screw drive,,Emprunte de tournevis permettant selon le type et la taille de visser ou dévisser différents types de vis.,"system used to turn a screw. At a minimum, it is a set of shaped cavities and protrusions on the screw head that allows torque to be applied to it. Usually, it also involves a mating tool, such as a screwdriver, that is used to turn it.
+https://en.wikipedia.org/wiki/List_of_screw_drives",,,,
+Design mécanique,Encoche,Notch,,Petite entaille. ,,,,,
+Transmission de puissance,Engrenage conique,Bevel gear,,,,,,,
+Transmission de puissance,Engrenage droit,Spur gear,,,,,,,
+Eléments tournants,"Engrenage, chaîne d'engrenages","Gear, gear train",,,,,,,
+"Ensemble de pièces mécaniques, Transmission de puissance",Engrenages épicycloïdaux,Planetary gears,,,,,,,
+Design mécanique,Entaille,"Notch, indent",,"Enlèvement d’une partie d’une pièce par usinage. 
+Ouverture plus ou moins grande que l'on fait pour lier une pièce avec une autre - Les entailles sont, ou carrées, ou à mi-bois, ou par embrèvement, ou à dent, ou à queue d'aronde, etc.",,,,,
+Géométrie,Entraxe,Center distance,,"Distance entre les centres de deux axes, deux cercles, deux roues d'engrenages ou poulies, etc.","Distance between centers of axis, wheel gears, pulleys, circles, etc.",,,,
+Composant mécanique,Entretoise,"Spacer, standoff",,Pièce rigide qui en relie deux autres et les maintient dans un écartement fixe.,"Structural component designed to link to parts, with a fixed space.",,,,
+Fonction mécanique,Entretoise de soutien,Strut,,"Pièce rigide qui en relie deux autres et les maintient dans un écartement fixe, assurant une résistance longitudinale.",,,,,
+Fonction mécanique,Épaulement,Shoulder,,"Changement brusque de diamètre d'une pièce cylindrique, dont le but est généralement de servir de surface d'appui.",,,,,
+"Composant mécanique,
+Outil / instrument / machine",Equerre,"Set square, T-square",,"Instrument formé de deux pièces ajustées à angle droit.
+- ou -
+Pièce en deux plans à angle droit permettant la fixation à 90° de deux éléments.
+
+https://fr.wikipedia.org/wiki/%C3%89querre",,,,,
+Fonction mécanique,Ergot,"Key, snug",,"Petit élément de pièce en saillie, généralement destiné à assurer un arrêt en rotation. ",,,,,
+Outil / instrument / machine,Etau,Vise / vice,,"Dispositif mécanique qui permet la « mise en position » et le « maintien en position » (serrage) d'une pièce de bois ou de métal, pour travailler dessus.","Mechanical apparatus used to secure an object to allow work to be performed on it. Vises have two parallel jaws, one fixed and the other movable, threaded in and out by a screw and lever.",,,,
+Design mécanique,Evidement,Pocket,,Vide prévu dans une pièce pour en diminuer le poids ou pour réduire une surface d’appui. ,,,,,
+Design mécanique,Extrados,Upper surface,,,,,,,
+Design mécanique,Fente,Slot,,Petite rainure. ,,,,,
+Élements de fixation,Filetage,Thread,,Rainure hélicoïdale exécutée sur un cylindre. C’est la forme qui a été réalisée sur une vis. ,,,,,
+Outil / instrument / machine,Filière,Die,,"Outil utilisé pour réaliser un filetage ou filets sur une tige de matière variable (métal, plastique, bois, etc.) afin de réaliser une tige filetée. Une filière s'utilise avec un porte-filière.","A die cuts an external thread on cylindrical material, such as a rod, which creates a male threaded piece which functions like a bolt. Dies are generally made in two styles: solid and adjustable. 
+
+Process: threading",,,,
+Composant mécanique,Flasque (ex. : flasque avant d'un moteur),Flange,,,,,,,
+Procédé de manufacturing,Fraisage,Milling,,,,,,,
+Fonction mécanique,Fraisure,Countersink,,Evasement conique fait avec une fraise à l’orifice d’un trou. ,"Conical hole cut into a manufactured object, or the cutter used to cut such a hole. ",,,,
+Fonction mécanique,Fût. fût de vis,"Shank, pilot hole",,,,,,,
+Composant mécanique,Galet,Roller,,"Petit rouleau tournant autour de son axe, à surface périphérique cylindrique ou torique.",,,,,
+Défaut,Gauchissement,"Warping, collapse",,,,,,,
+,Godron,"Gadroon, gadrooning",,"Cannelure en relief, ou bien type de languette, surépaisseur de matière qui peut servir à ajuster un emboitement entre deux pièces.",,,,,
+Design mécanique,Gorge,Groove,,Dégagement étroit généralement arrondie à sa partie inférieure. ,,,,,
+Outil / instrument / machine,Gouge,"Tubular chisel, gouge",,"Ciseau en demi-tube, servant à creuser, généralement le bois","chisel with a concave blade, used in carpentry, sculpture, and surgery.",,,,
+Élements de fixation,Goujon,Stud,,"Organe mécanique en forme de tige, parfois fileté, permettant de réaliser une liaison « indirecte, complète, rigide, démontable » entre une pièce équipée du goujon et une ou plusieurs autres traversées par le goujon et verrouillée par un écrou.",Relatively long rod that is threaded on both ends; the thread may extend along the complete length of the rod. They are designed to be used in tension.,,,,
+Composant mécanique,Goupille,Pin,,"Tige ou broche, cylindrique ou conique, destinée à l’assemblage, à l’immobilisation ou au repérage de deux pièces.",,,,,
+Composant mécanique,"Goupille (fendue, bêta, conique, cannelée, taraudée, élastique)",,,"Cylindre métallique ou tige pliée en deux destinés à être sollicités en cisaillement pour des efforts relativement faibles.
+https://fr.wikipedia.org/wiki/Goupille",,,,,
+Fonction mécanique,"Goupille, pion de verrouillage nylon",Locking pin (nylon),,,,,,,
+Design mécanique,Goutte de suif,Tallow-drop,,Calotte sphérique éventuellement raccordée par une portion de tore. ,,,,,
+Élements de fixation,Insert,Insert nut,,"Fût à alésage taraudé noyé dans une pièce, afin d'y accuillir une vis qui permet la fixation d'une autre pièce à la première.","An insert nut provides a threaded socket for a wooden workpiece, similar to a wall anchor. Insert nuts are inserted into a pre-drilled hole by one of two means: screw in and hammer in. In both cases, the external protrusions bite into the wood, preventing the nut from either turning or pulling out.",,,,
+Design mécanique,Intrados,Inner surface,,,,,,,
+Géométrie,Jeu,"Backlash, lash, play",,"Espace laissé entre deux pièces assemblées imparfaitement. Comme il est impossible de réaliser des pièces avec une géométrie parfaite, le jeu est une nécessité dans l'assemblage des éléments d'un mécanisme. La considération industrielle du problème a produit la notion de tolérancement, qui définit les classes de qualité d'assemblage et fixe les règles de l'emploi du jeu mécanique.","clearance or lost motion in a mechanism caused by gaps between the parts. It can be defined as ""the maximum distance or angle through which any part of a mechanical system may be moved in one direction without applying appreciable force or motion to the next part in mechanical sequence"", and is a mechanical form of deadband.",,,,
+Composant mécanique,Joint,Gasket,,"Fine pièce assurant une étanchéité entre deux parties, le plus souvent creuses.",,,,,
+Transmission de puissance,Joint de Cardan,"Universal joint, U-joint, Cardan joint, Spicer or Hardy Spicer joint, or Hooke's joint",,Dispositif mécanique qui permet la transmission d'une rotation angulaire entre deux arbres dont les axes géométriques concourent en un même point. C'est une manière de réaliser une liaison rotule à doigt.,"Joint or coupling connecting rigid rods whose axes are inclined to each other, and is commonly used in shafts that transmit rotary motion. It consists of a pair of hinges located close together, oriented at 90° to each other, connected by a cross shaft. The universal joint is not a constant-velocity joint.",,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Fonction mécanique,Joue,"Flange, cheek",,,,,,,
+Procédé de manufacturing,Lamage,Counterbore,,Logement cylindrique généralement destiné à obtenir une surface d’appui et noyer un élément de pièce. ,,,,,
+Fonction mécanique,Languette,Tab,,Tenon d’une grande longueur destiné à rentrer dans une rainure et assurer en général une liaison glissière.,,,,,
+Cinématique,Liaison appui plan,Planar joint,,,,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,Liaison glissière,"Slide joint, prismatic joint",,,Lower pair joint.,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,Liaison hélicoïdale,Screw joint,,,Lower pair joint.,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,Liaison linéaire annulaire,"Annular linear joint, point curve joint",,,,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,Liaison linéaire rectiligne,Edge slider joint,,,,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,Liaison mécanique,"Joint, linkage, kinematic pair",,"Modèle utilisé pour décrire l'association de plusieurs pièces liées entre elles par des contacts physiques qui les rendent totalement ou partiellement solidaires, selon qu'ils autorisent ou non des mouvements relatifs. ",Connection between two bodies that imposes constraints on their relative movement.,,,,
+Cinématique,Liaison pivot,"Revolute joint, pin joint, hinge joint",,,Lower pair joint.,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,Liaison pivot glissant,Cylindrical joint,,,Lower pair joint.,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,"Liaison ponctuelle, liaison sphère-plan","Spherical slider joint, three dimension rolling contact",,,Higher pair joint.,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,"Liaison rotule à doigt, sphérique à doigt",Universal joint,,,,,,,http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+Cinématique,"Liaison rotule, sphérique","Spherical joint, ball joint",,,Lower pair joint.,,,,
+Cinématique,Liason encastrement,Rigid joint,,,,,,,"http://dictionnaire.sensagent.leparisien.fr/Liaison_(m%C3%A9canique)/fr-fr/#Mod.C3.A9lisation_anglo-saxonne
+https://fr.wikipedia.org/wiki/Liaison_(m%C3%A9canique)"
+Design mécanique,Liseré,?,,Fins rebords ajoutés de part et d'autres de deux coques pour les fermer.,,,,,
+Fonction mécanique,Locating,Locating,,Pièce positionnant une autre pièce. ,,,,,
+Design mécanique,"Logement, carter, boitier",Housing,,Enveloppe protégeant un organe mécanique,,,,,
+Design mécanique,Lumière,"Aperture, opening",,Petite ouverture sur une pièce.,,,,,
+Composant mécanique,"Lyre, collier lyre, lyre d'accrochage","Clip, spring clip, finger grip clip",,,,,,,
+Élements de fixation,Macaron,?,,"Cylindre de diamètre relativement grand par rapport à sa hauteur, assurant en général un centrage. ",,,,,
+Outil / instrument / machine,Maillet,Mallet,,"Le maillet, composé d'un manche et d'une tête symétrique, se distingue de la masse et du marteau par le matériau dont est constituée cette tête : traditionnellement en bois, mais aussi en caoutchouc, plastique, etc. Cette particularité permet à l'outil qu'elle percute (p. ex. un ciseau) de pénétrer dans le matériau travaillé (pierre, bois, etc.) sans onde de choc perturbatrice. ","A mallet is a kind of hammer, often made of rubber or sometimes wood, that is smaller than a maul or beetle, and usually has a relatively large head. ",,,,
+Composant mécanique,Manchon,Muff,,"Pièce cylindrique creuse à placer sur des pièces cylindriques pleines, pour en assurer notamment l’assemblage par serrage ou par frettage.",,,,,
+Composant mécanique,"Mandrin
+(mandrin à machoire, mandrin porte forêt)","Chuck, mandrel
+(jaw chuck, collet chuck)",,Pièce mécanique fixée au bout de l'arbre d'une machine rotative ; il permet la fixation rapide d'un outil (comme le mandrin de perçage) ou d'une pièce (comme le mandrin de tour).,"Specialized type of clamp used to hold an object with radial symmetry, especially a cylinder.",,,,
+Fonction mécanique,Maneton ,Crankpin,,"Partie cylindrique d'un vilebrequin, d’une manivelle ou d’un arbre coudé, sur laquelle s’articule une tête de bielle.",,,,,
+Composant mécanique,Manivelle,Crank,,Composant mécanique présentant une partie excentrée appelée maneton (monobloc ou rapporté) par lequel une force peut lui imprimer un mouvement de rotation autour de son axe.,"An arm attached at a right angle to a rotating shaft by which reciprocating motion is imparted to or received from the shaft. It is used to convert circular motion into reciprocating motion, or vice versa. ",,,,
+Outil / instrument / machine,Marteau,Hammer,,"Un marteau est un outil percuteur, servant par exemple à aplatir un morceau de fer ou à enfoncer un clou.","A modern day hammer is a tool consisting of a weighted ""head"" fixed to a long handle that is swung to deliver an impact to a small area of an object.",,,,
+Outil / instrument / machine,Masse,Sledgehammer,,"Une masse est un outil à percussion, maniée à deux mains, constituée d'une partie lourde, la tête, de forme parallélépipèdique, souvent métallique et pesant habituellement plus de trois kilogrammes, manipulée par un manche, habituellement d'un mètre de long.","Tool with a large, flat, often metal head, attached to a long handle. The shape of its head allows a sledgehammer to apply more force than other hammers of similar size. ",,,,
+Fonction mécanique,Méplat,"Meplat, Flattening",,Surface plane sur une pièce à section circulaire. ,,,,,
+Outil / instrument / machine,Mordache,Soft jaws,,Une mordache est une plaque en matériau malléable rapportée sur chacun des mors d’un étau pour éviter la détérioration de la pièce lors du serrage.,,,,,
+Composant mécanique,Mors,Jaw,,"Parties constituant les machoire d'un étau, venant serrer une pièce.",,,,,
+Fonction mécanique,Mortaise,Mortise,,"Trou souvent rectangulaire pratiqué ou aménagé dans une partie d'un assemblage pour recevoir un élément saillant d'une autre pièce de cet assemblage, le tenon.","A mortise-and-tenon joint  is a means of joining two pieces of wood at an angle (usually 90°) to each other. A protruding tenon, cut at the end of one piece, fits into a corresponding recess, called a mortise, in the other.",,,,
+"Design mécanique, Travail du bois",Moulure,Molding (Decorative),,"Élément d'ornement allongé le long d'une arête, en saillie ou en creux. Travaillée à la toupie.",Strip of material with various profiles used to cover transitions between surfaces or for decoration.,,,,
+Transmission de puissance,Moyeu,Hub,,"Partie centrale d'une pièce technique tournante discoïdale: roue, poulie, engrenage, volant. Cette partie centrale peut transmettre les efforts moteurs ou non (être simplement porteur).","The center part of a wheel. It consists of an axle, bearings and a hub shell.",,,,
+Design mécanique,Nervure,Rib,,Partie saillante d’une pièce destinée à en augmenter la résistance ou la rigidité. ,,,,,
+Fonction mécanique,"Oblong, boutonnière",Oblong,,"Trou plus long que large, terminé par deux demi cylindres. ",,,,,
+Fonction mécanique,Oreille,"Lug, flange",,Rebord sur l'extrémité d'un palier lisse.,,,,,
+Eléments tournants,Palier,"Bushing, plain bearing",,Elément positionné entre un arbre d'une pièce et un alésage d'une autre pièce pour garantir une rotation entre les deux en réduisant les frottements.,Plain bearing that is inserted into a housing to provide a bearing surface for rotary applications.,,,,
+Composant mécanique,Palonnier,"spreader, horn",,"Pièce de répartition des efforts. 
+Terme parfois utilisé pour désigner les flasques de sortie allongées des servomoteurs.","Part used to divide forces. 
+In french, can be used as ""horn"" for the output flange of the servomotors.",,,,
+Paramètre,"Pas, avance, nombre de filets d'une vis","Pitch, lead, start of a screw",,"Pas : Distance axiale du filet sur un tour.
+
+Conduite : Distance parcourue par un écrou sur un tour.
+
+Nombre de filets : Généralement 1, 2 ou 4 filets.
+
+Avance = Pas x Nombre de fillets","Pitch
+Pitch is the distance between screw grooves and is commonly used with inch sized products and specified as threads per inch.
+
+Lead
+Lead is the linear travel the nut makes per one screw revolution and is how ball screws are typically specified.
+
+The pitch and lead are equal with single start screws.  For multiple start screws the lead is the pitch multiplied by the number of starts.",,,,
+Transmission de puissance,Pignon d'engrenage,Pinion gear,,,,,,,
+Outil / instrument / machine,Pince,Plier,,"Outil mécanique ayant pour fonction de pincer, maintenir, serrer, couper, déformer un objet ou une partie d'objet.",Hand tool used to hold objects firmly.,,,,
+Composant mécanique,Pince,Clip,,,,,,,
+Composant mécanique,Piston,Piston,,"Pièce rigide de section généralement circulaire coulissant dans un cylindre de forme complémentaire. Le déplacement du piston entraîne une variation de volume de la chambre, partie située au-dessus du piston, entre celui-ci et le cylindre. Un piston permet la conversion d'une pression en un travail, ou réciproquement.","Component of reciprocating engines, reciprocating pumps, gas compressors and pneumatic cylinders, among other similar mechanisms. It is the moving component that is contained by a cylinder and is made gas-tight by piston rings.",,,,
+Géométrie,Pivot,Pivot,,"Partie cylindrique terminale d’un arbre disposé verticalement, par laquelle il est supporté.",,,,,
+Géométrie,"Plan, face",Face,,,,,,,
+"Composant mécanique, élément de fixation",Plaque de garde,Pedestal jaw ?,,"Plaque généralement percée de deux trous, s'assemblant dans la saignée ou contre le méplat ou la rainure radiale d'un axe afin d'en assurer son maintien axial (axe z de l'axe) dans l'alésage d'une troisième pièce dans laquelle la plaque est fixée. Joue le rôle d'un circlip.",,,,,
+Fonction mécanique,Plot de centrage,Tapered interlock,,,,,,,
+Géométrie,"Point, vertice, sommet",Vertex,,,,,,,
+Transmission de puissance,Poulie,"Pulley, driver, block",,"Désigne l'ensemble roue - courroie, ou bien uniquement la roue qui entraîne ou est entraînée par une courroie, corde, ou chaîne.",Wheel on an axle or shaft that is designed to support movement and change of direction of a taut cable.,,,,
+Procédé de manufacturing,Procédé de fabrication,Manufacturing,,,,,,,
+Design mécanique,Profilé,"Profile, section, T-slotted bar",,Métal laminé suivant une section constante. ,Laminated bar metal following a constant section.,,,,
+Fonction mécanique,Queue d'aronde,Dove tail,,Tenon en forme de trapèze pénétrant dans une rainure de même forme et assurant une liaison glissière.,,,,,
+"Outil / instrument / machine, Travail du bois",Raboteuse,Thickness planer,,"Machine-outil utilisée par le menuisier pour calibrer une pièce préalablement dressée (généralement à la dégauchisseuse) avec un état de surface désiré par une avance mécanique. La surface obtenue est une surface plane et parallèle à une surface de référence, précise au 1/10e de mm. Le calibrage de la pièce de bois à l'épaisseur et à la largeur désirées est obtenue par enlèvements successifs de matière.",Woodworking machine to trim boards to a consistent thickness throughout their length and flat on both surfaces.,,,,
+Fonction mécanique,Rainure,Keyway,,Entaille longue pratiquée dans une pièce pour recevoir une languette ou un tenon.,,,,,
+Géométrie,Rayon,Radius,,,,,,,
+Défaut,Retassure,"Sink mark, dent, shrinkage cavity",,,,,,,
+Élement de fixation,Rivet,Rivet,,"Elément d'assemblage et de fixation permanent. Il se présente sous la forme d'une tige cylindrique, généralement métallique, pleine ou creuse qui est munie à l'une de ses extrémités d'une « tête », c'est-à-dire une partie de section plus grande.
+L'autre extrémité sera aplatie et élargie par écrasement, pour solidariser les éléments qu'on veut riveter ensemble. C'est le rivetage.",,,,,
+Eléments tournants,Rondelle,Washer,,,,,,,
+Transmission de puissance,Roue d'engrenage,Wheel gear,,,,,,,
+"Ensemble de pièces mécaniques, Transmission de puissance",Roue et vis sans fin,Worm drive,,"Cylindre comportant une cannelure hélicoïdale (parfois plusieurs), la faisant ressembler à une tige filetée. Associée à un pignon, elle constitue un engrenage gauche (les deux axes ne sont pas dans le même plan), dans lequel elle se comporte comme une roue à une dent (ou plus, selon le nombre de cannelures). On appelle aussi parfois ce système roue et vis sans fin.",Gear arrangement in which a worm (which is a gear in the form of a screw) meshes with a worm gear (which is similar in appearance to a spur gear).,,,,
+Transmission de puissance,Roulement à bille,"Bearing, ball bearing",,,,,,,
+Design mécanique,Saignée,"Kerf, groove",,"Entaille profonde et de faible largeur. Peut être utilisée pour les circlips. En général, plus profond qu'une gorge.",,,,,
+Design mécanique,Saillie,"Protuding, jut",,Partie saillante qui fait relief sur une surface unie.,,,,,
+Ensemble de pièces mécaniques,Sauterelle (de bridage),Toggle clamp,,"Mécanisme destiné à fixer rapidement une pièce sur un châssis, notamment dans le domaine de l'usinage sur machine-outil. Le bridage ou clampage de la pièce est assuré par la friction sur le patin de contact.",,,,,
+Fonction mécanique,Semelle,Pad,,Surface d’une pièce généralement plane et servant d’appui. ,,,,,
+Élement de fixation,Sertissage,Crimp,,,,,,,
+Design mécanique,Surface moletée,Knurled surface,,"Surface légèrement rainurée par deux réseaux de rainures se croisant, donnant un aspect gaufré. Elles sont généralement destinées à assurer une meilleure prise manuelle de l’objet, en évitant le glissement de la main.",,,,,
+Élement de fixation,Taquet français,French cleat,,"Double pièce biseautée en moulure, à 45°, l'une fixée à un mur (biseau vers le haut) et l'autre fixée à un élément à accrocher au mur (biseau vers le bas). Les deux pièces s'emboittent entre elles.
+
+Peut se présenter sous la forme de la seule pièce fixée au mur, l'élément à accrocher ayant déjà une partie géométrique à angle permettant l'assemblage.","Way of securing an object to a wall.It is a molding with a 30–45 degree slope used to hang cabinets or other objects.
+
+French cleats can be used in pairs, or with a cleat mounted to the wall and a matching edge cut into the object to be hung.",,,,
+Outil / instrument / machine,Taraud,Tap,,"Outil destiné à réaliser un taraudage, c'est-à-dire un filetage à l'intérieur d'un tube initialement lisse."," A tap is used to cut or form the female portion of the mating pair (e.g. a nut).
+
+Process: tapping",,,,
+Fonction mécanique,Taraudage,Threading,,Rainure hélicoïdale exécutée dans un alésage ou un perçage. C’est la forme qui a été réalisée dans un écrou. ,,,,,
+Fonction mécanique,Tenon,Tenon,,Partie mâle d'une pièce de construction destinée à être enfoncée dans la partie femelle (mortaise ou rainure) d'une autre pièce et qui tient les deux par emboîtement.,"A mortise-and-tenon joint  is a means of joining two pieces of wood at an angle (usually 90°) to each other. A protruding tenon, cut at the end of one piece, fits into a corresponding recess, called a mortise, in the other.",,,,
+Fonction mécanique,Téton,Pin,,"Petite saillie de forme cylindrique.
+Vis téton : vis venant appuyer sur une autre pièce. Pour l'entrainement / arrêt en rotation d'un axe avec méplat, la vis téton doit être au niveau du méplat afin de garantir la coaxiallité. Les éventuels changements de sens de rotation peuvent cependant entrainer un jeu angulaire.",,,,,
+Design mécanique,Tige,Shank,,"Longue et fine pièce à section généralement ronde, utilisée pour fixer d'autres pièces en ses extrémités, ou bien utilisée pour des capteurs.",,,,,
+Composant mécanique,Tige d'ancrage,Anchor bolt,,"Système de fixation d'une structure, en particulier les constructions métalliques, sur une fondation en béton. Le principe consiste à noyer dans la fondation en béton la tête d'un boulon en laissant à l'air libre une tige filetée sur laquelle viendra se fixer la base de la structure métallique à l'aide d'une rondelle et d'un écrou.",Fastener used to attach objects or structures to concrete.,,,,
+Composant mécanique,"Tige filetée, vis-écrou / vis à rouleaux",Lead screw,,"Mécanisme assurant la conversion d'un mouvement de rotation en un mouvement de translation (liaison hélicoïdale). 
+
+Vis à rouleaux satellites : Equivalent du mécanisme de vis-écrou, où des vis, appelées rouleaux, sont intercalées entre les deux pièces.","Screw used as a linkage in a machine, to translate turning motion into linear motion.",,,,
+"Outil / instrument / machine, Travail du bois",Toupie,"Wood shaper (US)
+Spindle moulder (UK)",,Machine-outil d'usinage du bois. Elle sert à profiler des sections de bois. On peut appeler ces profils des moulures.,"Stationary woodworking machine in which a vertically oriented spindle drives cutter heads to mill profiles on wood stock. The spindle may be raised and lowered relative to the shaper's table, and rotates between 3,000 and 10,000 rpm, with stock running along a vertical fence.",,,,
+Fonction mécanique,Tourillon,Shaft journal,,Partie cylindrique d’un arbre par laquelle il est supporté dans son mouvement de rotation (voir coussinet et palier).,The part of a shaft or axle that rests on bearings.,,,,
+Composant mécanique,"Tourillon, goujon, cheville",Wooden wall plug,,"En menuiserie, petit cylindre ou petite tige de bois assurant la liaison et en complément d'assemblage de deux éléments de bois.",Wooden insert used to enable the attachment of two parts of wood.,,,,
+Outil / instrument / machine,Tournevis,Screwdriver,,Outil de poing utilisé entre autres pour l'insertion et le retrait des vis dans les matériaux. ,"Tool, manual or powered, for screwing and unscrewing (inserting and removing) screws.",,,,
+Procédé de manufacturing,Trou,Hole,,,,,,,
+Fonction mécanique,Trou borgne,"Blind hole, non-through hole",,,,,,,
+Élement de fixation,Trou de vis,Screw hole,,,,,,,
+Outil / instrument / machine,"Trusquin, jauge de traçage, trusquin à mortaise","Marking gauge, scratch gauge, mortise gauge / dual marking gauge",,"Outils de traçage à la pointe ou à la lame, opérant par translation sur une surface d'appui de référence. Le trusquin à mortaise a deux pointes ou deux lames réglables pour marquer l'emplacement d'une mortaise.",Used in woodworking and metalworking to mark out lines for cutting or other operations. The purpose of the gauge is to scribe a line parallel to a reference edge or surface. ,,,,
+Composant mécanique,Tuyau,"Hose, pipe",,Tube creux flexible ou dur destiné à déplacer des fluides.,Flexible hollow tube designed to carry fluids from one location to another. ,,,,
+Composant mécanique,Vilebrequin,Crankshaft,,"Dispositif mécanique qui permet, par l’intermédiaire d'une bielle, la transformation du mouvement linéaire rectiligne du piston en un mouvement de rotation continu, et inversement.",Mechanical part able to perform a conversion between reciprocating motion and rotational motion. ,,,,
+Élement de fixation,Vis,Screw,,,,,,,
+Élement de fixation,Vis entre cuir et chair,Screw between two parts,,"Vis placée à cheval sur deux pièces cylindriques emmanchées, pour empêcher un déplacement relatif angulaire.",,,,,
+Géométrie,"Vue de coupe, vue de section","Cutaway, section view, cross-section",,Dessin montrant l'intérieur d'un système de telle manière que les éléments externes ont été partiellement coupés (intersection avec un ou lusieurs plans) afin de dégager la vue d'autres éléments internes.,"Drawing in which surface elements of a three-dimensional model are selectively removed, often intersected by one or several planes, in order to make internal features visible, but without sacrificing the outer context entirely.",,,,
+Outil / instrument / machine,Boite à onglets,Mitre box,,,,,,,
+"Composant mécanique, Travail du bois",Tasseau,Strip,,,,,,,
+Outil / instrument / machine,Lime,File,,,,,,,
+Outil / instrument / machine,Clé,Wrench,,,,,,,
+"Outil / instrument / machine, Travail du bois",Vilebrequin,Brace,,,,,,,
+Composant mécanique,Arbre à cames,Camshaft,,,,,,,
+"Outil / instrument / machine, Travail du bois",Mèche à bois,Wood spade,,,,,,,
+Outil,Rapporteur d'angles,Protractor,,,,,,,
+"Composant mécanique, Elément de fixation",Émerillon,Swivel,,"Système de fixation permettant la rotation autour d'un axe (hameçon, mousqueton, etc.).","Connection that allows the connected object, such as a gun, chair or swivel caster to rotate horizontally or vertically.",,,,
+"Composant mécanique, Elément de fixation",Anneau de levage (main ou oreille de levage),Eye bolt,,ccessoire de levage permettant de connecter une charge à une manille ou un crochet de levage (ou tout autre outil de connexion).,"Bolt with a loop at one end. They are used to firmly attach a securing eye to a structure, so that ropes or cables may then be tied to it.",,,,
+"Composant mécanique, Elément de fixation",Manille,"Shackle, gyve",,"ièce en acier forgé constituée d'un étrier, dont la forme peut être variable (U, lyre, rond), fermée par un axe mobile : celui-ci peut être un boulon ou un système plus sophistiqué.
+La manille sert à relier, généralement de manière provisoire, un cordage ou une chaîne avec des objets sur lesquels une traction doit s'exercer verticalement ou horizontalement. La liaison peut être réalisée directement sur l'objet, si celui-ci comporte un anneau, ou par l'intermédiaire d'un cordage, d'une élingue ou d'une chaîne solidaire de l'objet.","U-shaped piece of metal secured with a clevis pin or bolt across the opening, or a hinged metal loop secured with a quick-release locking pin mechanism.",,,,
+"Composant mécanique, Elément de fixation",Élingue,"Lifiting band, sling, slinging device",,"Accessoire de levage souple en cordage ou en sangle, en câble métallique ou en chaîne, généralement terminé par des composants métalliques tels que maille, crochets, anneaux ou manilles.
+L'élingue est un accessoire de travail indispensable aussi bien sur les bateaux (cordages, arrimage), hélicoptères, que sur les chantiers de constructions (gréage) et même dans les transports, quand il s'agit d'arrimer une charge sur un camion (élingue d'arrimage).",,,,,
+"Composant mécanique, Elément de fixation",Sangle,Strap,,,,,,,
+Travail du bois,,Castle joint,,,,,,,
+Outil,,Sawrasp,,,,,,,
+Outil,Râpe,Rasp,,,,,,,
+Outil,"Niveau, niveau à bulle","Level, spirit level, bubble level",,,,,,,
+"Géométrie, Travail du bois",About,,,"Charpenterie : extrémité façonnée d’une pièce de bois.
+Menuiserie : partie perpendiculaire au sens du fil du bois.
+Extrémité d'une pièce taillée pour être assemblée à une autre.",,,,,https://fr.wikipedia.org/wiki/Bois_massif_about%C3%A9
+Travail du bois,Bois abouté,,,"Bois d'ingénierie fabriqué à partir de courtes pièces de bois sec dont les extrémités sont emboîtées et collées les unes aux autres à l'aide d'un adhésif hydrofuge, afin de former une pièce de bois unique et plus longue.",,,,,https://fr.wikipedia.org/wiki/Bois_massif_about%C3%A9
+Travail du bois,Enture,,,Désigne toute combinaison d'assemblage en bout dans le travail du bois ou du métal,,,,,"https://fr.wikipedia.org/wiki/Bois_massif_about%C3%A9
+https://fr.wikipedia.org/wiki/Enture"
+"Composant mécanique, Elément de fixation, Travail du bois",Gousset,,,"Pièce de charpente, jambage ou plaque en bois, en fer, posé obliquement (angle d’environ 45°) reliant par assemblage un poteau vertical et une poutre horizontale tout en maintenant l’écartement et en donnant de la rigidité à cet ensemble.",,,,,"https://fr.wikipedia.org/wiki/Gousset_(architecture)
+https://notech.franceserv.com/goussets.html"
+Travail du bois,Assemblage en bois,,,,,,,,https://notech.franceserv.com/bois-assemblages.html
+Travail du bois,Bois de fil,,,,,,,,
+Travail du bois,Bois debout,,,,,,,,
