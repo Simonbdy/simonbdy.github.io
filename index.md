@@ -14,4 +14,8 @@ layout: default
     | {%- for cat in post.categories -%}- [{{ cat | capitalize }}](categories.html#{{ cat | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }} )<br />{%- endfor -%} | **{{ post.name_fr }}** | **{{ post.name_en }}** | {{ post.desc_fr }} | {{ post.desc_en }} | <a name="{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}"></a>{%- for img in post.img -%}<a href="{{ img }}" target="new">!["Image died..."](/assets/img/{{ img }})</a><br />{%- endfor -%} | - |{{ post.src }}<br />
 {% endfor %}
 
+Source: 
+<a href="https://www.wikipedia.com" target="new">Wikipedia.com</a>.
+
+
 > ![WIP](/assets/img/wip.png) Work in progress.
