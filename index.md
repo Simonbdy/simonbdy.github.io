@@ -11,7 +11,7 @@ layout: default
 | :---: | :---: | :--- | :--- | :--- | :---: | --- |
 {% assign sorted_post = site.posts | sort: 'title' %}
 {%- for post in sorted_post -%}
-    | **{{ post.name_fr }}** | **{{ post.name_en }}** | {%- for cat in post.categories -%}- [{{ cat | capitalize }}](categories.html#{{ cat | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }} )<br />{%- endfor -%} | {{ post.desc_fr }} | {{ post.desc_en }} | <a name="{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}"></a>{%- for img in post.img -%}<a href="{{ img }}" target="new">!["Image died..."](/assets/img/{{ img }})</a><br />{%- endfor -%} | {{ post.src }}<br />
+    | **{{ post.name_fr }}** | **{{ post.name_en }}** | {%- for cat in post.categories -%}- [{{ cat | capitalize }}](categories.html#{{ cat | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }} )<br />{%- endfor -%} | {{ post.desc_fr }} | {{ post.desc_en }} | <a name="{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}"></a>{%- for img in post.img -%}<a href="/assets/img/{{ img }}" target="new">!["Image died..."](/assets/img/{{ img }})</a><br />{%- endfor -%} | {{ post.src }}<br />
 {% endfor %}
 
 Source: 
