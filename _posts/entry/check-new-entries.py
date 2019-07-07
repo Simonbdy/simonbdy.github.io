@@ -95,7 +95,7 @@ def csv_to_md():
 					new_entry.write("img: [\"" + img[0] + "\", \"" + img[1] + "\", \"" + img[2] + "\"]" + "\n")
 
 				new_entry.write("src: " + src + "\n")
-				new_entry.write("date: 2019-03-15 17:58:00 +0100" + "\n")# + "%02d-%02d-%02d %02d:%02d:%02d %s" % (date.year, date.month, date.day, date.hour, date.minute-1, date.second, time.timezone) + "\n")
+				new_entry.write("date: 2019-03-15 17:58:00 +0100" + "\n")# This doesn't work, why? "date: %02d-%02d-%02d %02d:%02d:%02d %s" % (date.year, date.month, date.day, date.hour, date.minute-1, date.second, time.timezone) + "\n")
 				new_entry.write("categories: [" + categories + "]" + "\n")
 				new_entry.write("---" + "\n")
 				
