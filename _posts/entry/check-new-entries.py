@@ -36,8 +36,8 @@ def csv_to_md():
 				else:
 					name_en = row[2].replace("/", "-").replace("?", "No name found").replace(":","&#58;")
 				
-				desc_fr = row[4].replace("\n", " <br />").replace(":","&#58;").replace("/", "&#47;")
-				desc_en = row[5].replace("\n", " <br />").replace(":","&#58;").replace("/", "&#47;")
+				desc_fr = row[4].replace("\n", " ").replace(":","&#58;").replace("/", "&#47;")
+				desc_en = row[5].replace("\n", " ").replace(":","&#58;").replace("/", "&#47;")
 				
 				# prend seulement le nom du fichier et supprime l'adresse avant le premier "/" par la droite
 				if row[6] == "":
@@ -69,7 +69,7 @@ def csv_to_md():
 					file_title = str("ZZZ-No-name-found-%d" % no_name)
 					no_name += 1
 				else:
-					file_title = name_en
+					file_title = name_en.replace(" ", "_").replace("\n", "_")
 					title = name_en
 				
 				new_entry = open(filename_date + file_title + ".md", "w+")
