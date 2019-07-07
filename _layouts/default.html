@@ -35,7 +35,7 @@
   		{%- assign sorted_post = site.posts | sort: 'title' -%}
   		{%- for post in sorted_post -%}
     			<li class="board">
-    				<a href="index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_en }}</a>
+    				<a href="http://simonbdy.github.io/index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_en }}</a>
     			</li>
   		{%- endfor -%}
     </ul>
@@ -45,7 +45,7 @@
   		{%- assign sorted_post = site.posts | sort: 'name_fr' -%}
   		{%- for post in sorted_post -%}
     			<li class="board">
-    				<a href="index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_fr }}</a>
+    				<a href="http://simonbdy.github.io/index.html#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_fr }}</a>
     			</li>
   		{%- endfor -%}
     </ul>
