@@ -39,22 +39,23 @@ def csv_to_md():
 				desc_fr = row[4].replace("\n", " <br />").replace(":","&#58;").replace("/", "&#47;")
 				desc_en = row[5].replace("\n", " <br />").replace(":","&#58;").replace("/", "&#47;")
 				
+				# prend seulement le nom du fichier et supprime l'adresse avant le premier "/" par la droite
 				if row[6] == "":
-					img[0] = ""
+					img[0] = None
 				else:
-					img[0] = row[6][row[6].rindex("/"):] # prend seulement le nom du fichier et supprime l'adresse
+					img[0] = row[6][row[6].rindex("/"):].replace("/", "")
 					
 				if row[7] == "":
-					img[1] = ""
+					img[1] = None
 				else:
-					img[1] = row[7][row[7].rindex("/"):]
+					img[1] = row[7][row[7].rindex("/"):].replace("/", "")
 				
 				if row[8] == "":
-					img[2] = ""
+					img[2] = None
 				else:
-					img[2] = row[8][row[8].rindex("/"):]
+					img[2] = row[8][row[8].rindex("/"):].replace("/", "")
 				
-				
+				# Transforme la source en lien
 				if row[9] == "":
 					src = ""
 				else:
@@ -80,7 +81,19 @@ def csv_to_md():
 				new_entry.write("name_en: " + name_en + "\n")
 				new_entry.write("desc_fr: " + desc_fr + "\n")
 				new_entry.write("desc_en: " + desc_en + "\n")
-				new_entry.write("img: [\"" + img[0] + img[1] + img[2] + "\"]" + "\n")
+
+				# avoid broken empty image links
+				if img[2] == None:
+					if img[1] == None:
+						if img[0] == None:
+							new_entry.write("img: []" + "\n")
+						else:
+							new_entry.write("img: [\"" + img[0] + "\"]" + "\n")
+					else:
+						new_entry.write("img: [\"" + img[0] + "\", \"" + img[1] + "\"]" + "\n")
+				else:
+					new_entry.write("img: [\"" + img[0] + "\", \"" + img[1] + "\", \"" + img[2] + "\"]" + "\n")
+
 				new_entry.write("src: " + src + "\n")
 				new_entry.write("date: 2019-03-15 17:58:00 +0100" + "\n")# + "%02d-%02d-%02d %02d:%02d:%02d %s" % (date.year, date.month, date.day, date.hour, date.minute-1, date.second, time.timezone) + "\n")
 				new_entry.write("categories: [" + categories + "]" + "\n")
