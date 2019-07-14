@@ -24,17 +24,17 @@ def csv_to_md():
 				line += 1
 			else:
 				
-				categories = row[0]
+				categories = row[2]
 								
-				if row[1] == "":
+				if row[0] == "":
 					name_fr = "Aucun nom trouv&#233;"
 				else:
-					name_fr = row[1].replace("/", "-").replace("?", "Aucun nom trouvé").replace(":","&#58;").replace("é","&#233;")
+					name_fr = row[0].replace("/", "-").replace("?", "Aucun nom trouvé").replace(":","&#58;").replace("é","&#233;")
 				
-				if row[2] == "":
+				if row[1] == "":
 					name_en = "No name found"
 				else:
-					name_en = row[2].replace("/", "-").replace("?", "No name found").replace(":","&#58;")
+					name_en = row[1].replace("/", "-").replace("?", "No name found").replace(":","&#58;")
 				
 				desc_fr = row[4].replace("\n", " ").replace(":","&#58;").replace("/", "&#47;")
 				desc_en = row[5].replace("\n", " ").replace(":","&#58;").replace("/", "&#47;")
