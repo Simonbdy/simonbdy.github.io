@@ -73,7 +73,7 @@ def csv_to_md():
 					title = name_en
 				
 				new_entry = open(filename_date + file_title + ".md", "w+")
-				print("Creating file: " + filename_date + file_title + ".md")
+				print("Creating file " + filename_date + file_title + ".md from file " + file_csv + ", line " + str(new_line+2))
 				new_entry.write("---" + "\n")
 				new_entry.write("layout: post" + "\n")
 				new_entry.write("title: " + file_title + "\n")
