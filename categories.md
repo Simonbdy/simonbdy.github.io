@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Tags"
+title:  "Categories"
 ---
 
 # Items' categories
