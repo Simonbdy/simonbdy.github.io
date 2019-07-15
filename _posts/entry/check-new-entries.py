@@ -24,7 +24,8 @@ def csv_to_md():
 				line += 1
 			else:
 				
-				categories = row[2]
+				categories_fr = row[2].split(", ")
+				categories_en = row[3].split(", ")
 								
 				if row[0] == "":
 					name_fr = "Aucun nom trouv&#233;"
@@ -95,8 +96,12 @@ def csv_to_md():
 					new_entry.write("img: [\"" + img[0] + "\", \"" + img[1] + "\", \"" + img[2] + "\"]" + "\n")
 
 				new_entry.write("src: " + src + "\n")
-				new_entry.write("date: 2019-03-15 17:58:00 +0100" + "\n")# This doesn't work, why? "date: %02d-%02d-%02d %02d:%02d:%02d %s" % (date.year, date.month, date.day, date.hour, date.minute-1, date.second, time.timezone) + "\n")
-				new_entry.write("categories: [" + categories + "]" + "\n")
+				new_entry.write("date: 2019-03-15 17:58:00 +0100" + "\n")# This doesn't work in the Jekyll regeneration of the site, why? "date: %02d-%02d-%02d %02d:%02d:%02d %s" % (date.year, date.month, date.day, date.hour, date.minute-1, date.second, time.timezone) + "\n")
+					
+				a = ["FR_" + s for s in categories_fr] + ["EN_" + s for s in categories_en]
+				new_entry.write("categories: " + str(a).replace("\'", "") + "\n")
+
+				# new_entry.write("categories_en: " + categories_en + "\n")
 				new_entry.write("---" + "\n")
 				
 				new_line += 1
