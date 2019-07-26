@@ -5,6 +5,7 @@ title:  "Categories"
 
 # Items' categories
 
+[&#91; Go back to full list &#93;](/index)
 
 <table>
 	<tr><th>Français : </th><th>English: </th></tr>
