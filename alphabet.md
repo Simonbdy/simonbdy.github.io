@@ -26,5 +26,7 @@ Source:
 
 
 
-## {{ site.url | }}
-## {{ page.url }}
+## site.url: {{ site.url }}
+## site.url | absolute_url: {{ site.url | absolute_url }}
+## page.url: {{ page.url }}
+## site.baseurl: {{ site.baseurl }}
