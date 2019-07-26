@@ -6,6 +6,9 @@ layout: default
 
 > Work in progress.
 
+[Go to category page](/categories)
+
+ [A](/alphabet.html#A) &#124; B &#124; C &#124; D &#124; E &#124; F &#124; G &#124; H &#124; I &#124; J &#124; K &#124; L &#124; M &#124; N &#124; O &#124; P &#124; Q &#124; R &#124; S &#124; T &#124; U &#124; V &#124; W &#124; X &#124; Y &#124; Z &#124; 0 - 9
 
 | **Nom (fr)** | **Name (en)** | **Categories** | **Définition (fr)** | **Definition (en)** | **Illustrations** | **Sources** |
 | :---: | :---: | :--- | :--- | :--- | :---: | --- |
@@ -17,5 +20,6 @@ layout: default
 Source: 
 <a href="https://www.wikipedia.com" target="new">Wikipedia.com</a>.
 
+[Go to category page](/categories)
 
 > Work in progress.
