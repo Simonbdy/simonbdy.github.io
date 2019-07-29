@@ -121,6 +121,74 @@ hr.endpost{
 	padding: 10px 10px 1px 10px;
 }
 
-.word {
-  display: none;
+.FR::after{
+	content: " [FR]";
+	position: relative;
+	bottom: 1px;
+	font-size: .6em;
+	line-height: .8em;
+	vertical-align:super;
+	text-decoration:none;
+	color:#aaaaaa;
+}
+
+.EN::after{
+	content: " [EN]";
+	position: relative;
+	bottom: 1px;
+	font-size: .6em;
+	line-height: .8em;
+	vertical-align:super;
+	text-decoration:none;
+	color:#aaaaaa;
+}
+
+.trait{
+    border: 0;
+    border-bottom: 2px dotted #ddd;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70%;
+    margin-left: auto;
+  	margin-right: auto;
+    background-color: #fff;
+    text-align:center;
+}
+
+.img{
+	max-height:120px;
+}
+
+.divTable{
+	display: none;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divContentRow:nth-child(even) {
+  background: #EEE;
+}
+
+.divTableCell {
+	border: 1px solid #eeeeee;
+	display: table-cell;
+	padding: 3px 5px;
+	vertical-align: middle;
+}
+.divTableHeading {
+	background-color: #AAA;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.divTableHead{
+	background-color: #AAA;
 }
