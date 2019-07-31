@@ -9,9 +9,9 @@ function expand(letter) {
 }
 </script>
 
-<h1>Dico méca: Alphabetical order</h1>
+<h1>Dico méca: Alphabetical order (French)</h1>
 
-[&#91; Go back to full list &#93;](/index)
+[&#91; Go back to full list &#93;](/index) [&#91;Go to category page&#93;](/categories) 
 
 <div>
  <a href="#" class="letters" onclick="expand('ALL')">Full list</a> &#124; <a href="#" class="letters" onclick="expand('A')">A</a> &#124; <a href="#" class="letters" onclick="expand('B')">B</a> &#124; <a href="#" class="letters" onclick="expand('C')">C</a> &#124; <a href="#" class="letters" onclick="expand('D')">D</a> &#124; <a href="#" class="letters" onclick="expand('E')">E</a> &#124; <a href="#" class="letters" onclick="expand('F')">F</a> &#124; <a href="#" class="letters" onclick="expand('G')">G</a> &#124; <a href="#" class="letters" onclick="expand('H')">H</a> &#124; <a href="#" class="letters" onclick="expand('I')">I</a> &#124; <a href="#" class="letters" onclick="expand('J')">J</a> &#124; <a href="#" class="letters" onclick="expand('K')">K</a> &#124; <a href="#" class="letters" onclick="expand('L')">L</a> &#124; <a href="#" class="letters" onclick="expand('M')">M</a> &#124; <a href="#" class="letters" onclick="expand('N')">N</a> &#124; <a href="#" class="letters" onclick="expand('O')">O</a> &#124; <a href="#" class="letters" onclick="expand('P')">P</a> &#124; <a href="#" class="letters" onclick="expand('Q')">Q</a> &#124; <a href="#" class="letters" onclick="expand('R')">R</a> &#124; <a href="#" class="letters" onclick="expand('S')">S</a> &#124; <a href="#" class="letters" onclick="expand('T')">T</a> &#124; <a href="#" class="letters" onclick="expand('U')">U</a> &#124; <a href="#" class="letters" onclick="expand('V')">V</a> &#124; <a href="#" class="letters" onclick="expand('W')">W</a> &#124; <a href="#" class="letters" onclick="expand('X')">X</a> &#124; <a href="#" class="letters" onclick="expand('Y')">Y</a> &#124; <a href="#" class="letters" onclick="expand('Z')">Z</a><br /><br />
