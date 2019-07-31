@@ -145,13 +145,13 @@ hr.endpost{
 
 .trait{
     border: 0;
-    border-bottom: 2px dotted #ddd;
+    border-bottom: 1px dotted #ddd;
     margin-top: 5px;
     margin-bottom: 5px;
     width: 70%;
     margin-left: auto;
   	margin-right: auto;
-    background-color: rgba(255,255,255,0);
+    background-color: transparent;
     text-align:center;
 }
 
@@ -184,9 +184,10 @@ hr.endpost{
 
 .divTableCellHead {
 	border: 1px solid #eeeeee;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	vertical-align: middle;
+	display: table-cell;
+	border-collapse: separate;
+	border: 20px solid transparent;
 }
 
 .divTableHeading {
@@ -206,9 +207,8 @@ hr.endpost{
 }
 
 .divTableHead{
-	padding-top: 10px;
-	padding-bottom: 10px;
 	display: table-row;
-	background-color: #BBB;
+	background-color: #d1d8dd;
 	vertical-align: middle;
+
 }

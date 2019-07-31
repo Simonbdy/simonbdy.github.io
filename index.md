@@ -6,7 +6,7 @@ layout: default
 
 > Work in progress.
 
-[Go to category page](/categories) &#124; Browse by letters: [French] [English]
+[&#91;Go to category page&#93;](/categories) Browse by letters: [&#91;French&#93;](/alphabet) [English]
 
 <!-- All -->
 {%- assign sorted_post = site.posts | sort: 'title' -%}
@@ -19,15 +19,15 @@ layout: default
 <div class="divTable" style="display: table;">
 	<div class="divTableBody">
 		<div class="divTableHead">
-			<div class="divTableCell"><strong>Name</strong></div>
-			<div class="divTableCell"><strong>Categories</strong></div>
-			<div class="divTableCell"><strong>Definition</strong></div>
-			<div class="divTableCell"><strong>Illustrations</strong></div>
+			<div class="divTableCellHead"><strong>Name</strong></div>
+			<div class="divTableCellHead"><strong>Categories</strong></div>
+			<div class="divTableCellHead"><strong>Definition</strong></div>
+			<div class="divTableCellHead"><strong>Illustrations</strong></div>
 		</div>
 {%- assign i = 1 -%}
-{%- endif-%}
+{%- endif-%}<a name="{{- post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}"></a>
 <div class="divTableRow divContentRow">
-	<div  name="{{- post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}" border="1" border-color="grey" class="divTableCell"><strong><span class="FR">{{- post.name_fr -}}</span><hr class="trait"><span class="EN">{{- post.name_en -}}</span></strong></div>
+	<div border="1" border-color="grey" class="divTableCell"><strong><span class="FR">{{- post.name_fr -}}</span><hr class="trait"><span class="EN">{{- post.name_en -}}</span></strong></div>
 	<div class="divTableCell">
 		{%- for cat in post.categories -%}
 			{%- assign lang = cat | slice: 0, 3 -%}
