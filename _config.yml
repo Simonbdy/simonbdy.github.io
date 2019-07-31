@@ -7,3 +7,7 @@ theme: jekyll-theme-minimal
 permalink: /:categories/:title
 kramdown:
     auto_ids: true
+exclude:
+
+  - .jekyll-cache
+  - node_modules
