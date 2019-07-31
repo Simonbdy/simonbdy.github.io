@@ -122,7 +122,7 @@ hr.endpost{
 }
 
 .FR::after{
-	content: " [FR]";
+	content: " [FR]";
 	position: relative;
 	bottom: 1px;
 	font-size: .6em;
@@ -133,7 +133,7 @@ hr.endpost{
 }
 
 .EN::after{
-	content: " [EN]";
+	content: " [EN]";
 	position: relative;
 	bottom: 1px;
 	font-size: .6em;
@@ -151,7 +151,7 @@ hr.endpost{
     width: 70%;
     margin-left: auto;
   	margin-right: auto;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0);
     text-align:center;
 }
 
@@ -163,11 +163,16 @@ hr.endpost{
 	display: none;
 	width: 100%;
 }
-.divTableRow {
+.divContentRow {
 	display: table-row;
 }
+
 .divContentRow:nth-child(even) {
-  background: #EEE;
+  background: #fafafa;
+}
+
+.divContentRow:hover {
+  background: #EFF8FB;
 }
 
 .divTableCell {
@@ -176,19 +181,34 @@ hr.endpost{
 	padding: 3px 5px;
 	vertical-align: middle;
 }
+
+.divTableCellHead {
+	border: 1px solid #eeeeee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
 .divTableHeading {
 	background-color: #AAA;
 	display: table-header-group;
 	font-weight: bold;
 }
+
 .divTableFoot {
 	background-color: #EEE;
 	display: table-footer-group;
 	font-weight: bold;
 }
+
 .divTableBody {
 	display: table-row-group;
 }
+
 .divTableHead{
-	background-color: #AAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: table-row;
+	background-color: #BBB;
+	vertical-align: middle;
 }

@@ -6,8 +6,65 @@ layout: default
 
 > Work in progress.
 
-[Go to category page](/categories)
+[Go to category page](/categories) &#124; Browse by letters: [French] [English]
 
+<!-- All -->
+{%- assign sorted_post = site.posts | sort: 'title' -%}
+{%- assign i = 0 -%}
+{%- assign exist = 0 -%}
+{%- for post in sorted_post -%}
+{%- if post -%}
+{%- assign exist = 0 -%}
+{%- if i == 0 -%}
+<div class="divTable" style="display: table;">
+	<div class="divTableBody">
+		<div class="divTableHead">
+			<div class="divTableCell"><strong>Name</strong></div>
+			<div class="divTableCell"><strong>Categories</strong></div>
+			<div class="divTableCell"><strong>Definition</strong></div>
+			<div class="divTableCell"><strong>Illustrations</strong></div>
+		</div>
+{%- assign i = 1 -%}
+{%- endif-%}
+<div class="divTableRow divContentRow">
+	<div  name="{{- post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}" border="1" border-color="grey" class="divTableCell"><strong><span class="FR">{{- post.name_fr -}}</span><hr class="trait"><span class="EN">{{- post.name_en -}}</span></strong></div>
+	<div class="divTableCell">
+		{%- for cat in post.categories -%}
+			{%- assign lang = cat | slice: 0, 3 -%}
+			{%- if lang == "FR_" -%}
+				<span class="FR">- <a href="categories.html#{{- cat | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}">{{- cat | remove: 'FR_' | remove: 'Fr_' | remove: 'fr_'| capitalize | strip_newlines -}}</a></span><br />
+			{%- endif -%}
+		{%- endfor -%}
+		<hr class="trait">
+		{%- for cat in post.categories -%}
+			{%- assign lang = cat | slice: 0, 3 -%}
+			{%- if lang == "EN_" -%}
+				<span class="EN">- <a href="categories.html#{{- cat | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}">{{- cat | remove: 'EN_' | remove: 'En_' | remove: 'en_' | capitalize| strip_newlines }}</a></span><br />
+			{%- endif -%}
+	{%- endfor -%}
+	</div>
+	<div class="divTableCell">{%- if post.desc_fr -%}<span class="FR">{{- post.desc_fr | truncatewords: 4, " [...]"  -}}</span> Read more.<br />{%- endif -%}
+		{%- if post.desc_en -%}<hr class="trait">
+		<span class="EN">{{- post.desc_en | truncatewords: 4, " [...]" -}}</span> Read more.<br />{%- endif -%}{%- if post.src -%}[{{- post.src -}}]{%- endif -%}</div>
+	<div class="divTableCell">
+		{%- for img in post.img -%}
+			<a href="/assets/img/{{- img -}}" target="_blank"><img class="img" src="/assets/img/{{- img | strip_newlines -}}"></a>
+			<br />
+		{%- endfor -%}
+	</div>
+</div>
+{%- endif -%}
+{%- endfor -%}
+{%- if exist == 0 -%}<div class="divTable" data-letter="ALL"><div>No entry found.{%- endif -%}
+</div>
+</div>
+
+<br />
+Source: 
+<a href="https://www.wikipedia.com" target="_blank">Wikipedia.com</a>.
+
+
+<!--
  [A](/alphabet.html#A) &#124; B &#124; C &#124; D &#124; E &#124; F &#124; G &#124; H &#124; I &#124; J &#124; K &#124; L &#124; M &#124; N &#124; O &#124; P &#124; Q &#124; R &#124; S &#124; T &#124; U &#124; V &#124; W &#124; X &#124; Y &#124; Z &#124; 0 - 9
 
 | **Nom (fr)** | **Name (en)** | **Categories** | **Définition (fr)** | **Definition (en)** | **Illustrations** | **Sources** |
@@ -19,7 +76,9 @@ layout: default
 
 Source: 
 <a href="https://www.wikipedia.com" target="new">Wikipedia.com</a>.
+-->
 
-[Go to category page](/categories)
+[Go to category page](/categories) 
+
 
 > Work in progress.
