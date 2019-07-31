@@ -35,7 +35,7 @@
   		{%- assign sorted_post = site.posts | sort: 'title' -%}
   		{%- for post in sorted_post -%}
     			<li class="board">
-    				<a href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_en }}</a>
+    				<a onclick="expand('ALL')" href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_en }}</a>
     			</li>
   		{%- endfor -%}
     </ul>
@@ -45,7 +45,7 @@
   		{%- assign sorted_post = site.posts | sort: 'name_fr' -%}
   		{%- for post in sorted_post -%}
     			<li class="board">
-    				<a href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_fr }}</a>
+    				<a onclick="expand('ALL')" href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_fr }}</a>
     			</li>
   		{%- endfor -%}
     </ul>
@@ -66,16 +66,9 @@
 
       </section>
       <footer>
-        {%- if site.github.is_project_page -%}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {%- endif -%}
-        <p><small>Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a><br />
+        <p><small>
+        Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a><br />
   >> A question? <a href="https://github.com/Simonbdy" target="_blank">Send an email</a>
-
-		{%- if site.github.is_user_page -%}
-        <a href="{{ site.github.owner_url }}">View GitHub Profile</a>
-        {%- endif -%}
-
 		</small></p>
       </footer>
     </div>
