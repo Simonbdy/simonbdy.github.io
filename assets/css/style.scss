@@ -180,6 +180,7 @@ hr.endpost{
 	display: table-cell;
 	padding: 3px 5px;
 	vertical-align: middle;
+	position: relative;
 }
 
 .divTableCellHead {
@@ -211,4 +212,33 @@ hr.endpost{
 	background-color: #d1d8dd;
 	vertical-align: middle;
 
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  border: 2px solid #123;
+  background-color: rgba(230,240,255,0.5);
+  color: black;
+  vertical-align: middle;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+div.fixed:hover {
+	background-color: rgba(200,210,225,1);
+}
+
+div.anchor {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0px solid transparent;
+}
+
+.readmore {
+	font-size: 10px;
 }
