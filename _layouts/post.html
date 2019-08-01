@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
-<h2>{{ page.title | capitalize }}</h2>
+<h2>{{ page.title | replace: "_", " "| capitalize }}</h2>
 
-[&#91; Go back to full list &#93;](/index) [&#91;Go to category page&#93;](/categories)  Browse by letters: [&#91;French&#93;](/alphabet) [English]
+<a href="/index">&#91;Full list&#93;</a> <a href="/categories">&#91;Category page&#93;</a> Browse by letters: <a href="/alphabet_fr">&#91;French&#93;</a><a href="/alphabet_en">&#91;English&#93;</a>
 
 <small>Last update: {{ page.date | date: "%-d %B %Y" }}</small>
 <br /><br />
 
 <!--<p class="view">by {{ page.author | default: site.author }}</p>-->
-
-{{content}}
-
 
