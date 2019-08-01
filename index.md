@@ -49,7 +49,7 @@ layout: default
 		<span class="EN">{{- post.desc_en | truncatewords: 4, " [...]" -}}</span><a href="{{- post.url -}}.html"><p class="readmore">&#91;Read more&#93;</p></a>{%- endif -%}{%- if post.src -%}[{{- post.src -}}]{%- endif -%}</div>
 	<div class="divTableCell">
 		{%- for img in post.img -%}
-			<a href="/assets/img/{{- img -}}" target="_blank"><img class="img" src="/assets/img/{{- img | strip_newlines -}}"></a>
+			<a href="{{- post.url -}}.html#img"><img class="img" src="/assets/img/{{- img | strip_newlines -}}"></a>
 			<br />
 		{%- endfor -%}
 	</div>
@@ -84,6 +84,4 @@ Source:
 
 > Work in progress.
 
-bonsoir
 <a href="#top"><div class="fixed">Top</div></a>
-bonsoir
