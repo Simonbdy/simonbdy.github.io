@@ -26,16 +26,12 @@
         <h2>{{ site.title | default: site.github.project_tagline }}</h2>
         <h4>{{ site.description | default: site.github.project_tagline }}</h4>
 
-        {%- if site.github.is_project_page -%}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {%- endif -%}
-
     <b>English:</b></li>
     <ul>
   		{%- assign sorted_post = site.posts | sort: 'title' -%}
   		{%- for post in sorted_post -%}
     			<li class="board">
-    				<a onclick="expand('ALL')" href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_en }}</a>
+    				<a href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_en }}</a>
     			</li>
   		{%- endfor -%}
     </ul>
@@ -45,7 +41,7 @@
   		{%- assign sorted_post = site.posts | sort: 'name_fr' -%}
   		{%- for post in sorted_post -%}
     			<li class="board">
-    				<a onclick="expand('ALL')" href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_fr }}</a>
+    				<a href="{{ "/index.html" | absolute_url }}#{{ post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' }}">{{ post.name_fr }}</a>
     			</li>
   		{%- endfor -%}
     </ul>
