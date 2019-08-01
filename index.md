@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
+<a name="top"></a>
 
-# Dico méca
+# Dico méca: Full list
 
 > Work in progress.
 
@@ -10,12 +11,12 @@ layout: default
 
 <!-- All -->
 {%- assign sorted_post = site.posts | sort: 'title' -%}
-{%- assign i = 0 -%}
+{%- assign first_line = 0 -%}
 {%- assign exist = 0 -%}
 {%- for post in sorted_post -%}
 {%- if post -%}
 {%- assign exist = 0 -%}
-{%- if i == 0 -%}
+{%- if first_line == 0 -%}
 <div class="divTable" style="display: table;">
 	<div class="divTableBody">
 		<div class="divTableHead">
@@ -24,10 +25,10 @@ layout: default
 			<div class="divTableCellHead"><strong>Definition</strong></div>
 			<div class="divTableCellHead"><strong>Illustrations</strong></div>
 		</div>
-{%- assign i = 1 -%}
-{%- endif-%}<a name="{{- post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}"></a>
+{%- assign first_line = 1 -%}
+{%- endif-%}
 <div class="divTableRow divContentRow">
-	<div border="1" border-color="grey" class="divTableCell"><strong><span class="FR">{{- post.name_fr -}}</span><hr class="trait"><span class="EN">{{- post.name_en -}}</span></strong></div>
+	<div border="1" border-color="grey" class="divTableCell"><a name="{{- post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}"><div class="anchor"></div></a><a href="{{- post.url -}}.html"><strong><span class="FR">{{- post.name_fr -}}</span><hr class="trait"><span class="EN">{{- post.name_en -}}</span></strong></a></div>
 	<div class="divTableCell">
 		{%- for cat in post.categories -%}
 			{%- assign lang = cat | slice: 0, 3 -%}
@@ -43,9 +44,9 @@ layout: default
 			{%- endif -%}
 	{%- endfor -%}
 	</div>
-	<div class="divTableCell">{%- if post.desc_fr -%}<span class="FR">{{- post.desc_fr | truncatewords: 4, " [...]"  -}}</span> Read more.<br />{%- endif -%}
+	<div class="divTableCell">{%- if post.desc_fr -%}<span class="FR">{{- post.desc_fr | truncatewords: 4, " [...]"  -}}</span><a href="{{- post.url -}}.html"><p class="readmore">&#91;Read more&#93;</p></a>{%- endif -%}
 		{%- if post.desc_en -%}<hr class="trait">
-		<span class="EN">{{- post.desc_en | truncatewords: 4, " [...]" -}}</span> Read more.<br />{%- endif -%}{%- if post.src -%}[{{- post.src -}}]{%- endif -%}</div>
+		<span class="EN">{{- post.desc_en | truncatewords: 4, " [...]" -}}</span><a href="{{- post.url -}}.html"><p class="readmore">&#91;Read more&#93;</p></a>{%- endif -%}{%- if post.src -%}[{{- post.src -}}]{%- endif -%}</div>
 	<div class="divTableCell">
 		{%- for img in post.img -%}
 			<a href="/assets/img/{{- img -}}" target="_blank"><img class="img" src="/assets/img/{{- img | strip_newlines -}}"></a>
@@ -82,3 +83,7 @@ Source:
 
 
 > Work in progress.
+
+bonsoir
+<a href="#top"><div class="fixed">Top</div></a>
+bonsoir
