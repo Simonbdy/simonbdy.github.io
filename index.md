@@ -7,7 +7,7 @@ layout: default
 
 > Work in progress.
 
-[&#91;Go to category page&#93;](/categories) Browse by letters: [&#91;French&#93;](/alphabet) [English]
+[&#91;Go to category page&#93;](/categories) Browse by letters: [&#91;French&#93;](/alphabet_fr) [English]
 
 <!-- All -->
 {%- assign sorted_post = site.posts | sort: 'title' -%}
