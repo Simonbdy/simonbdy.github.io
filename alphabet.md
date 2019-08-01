@@ -33,7 +33,7 @@ function expand(letter) {
 {%- assign i = 1 -%}
 {%- endif-%}
 <div class="divTableRow divContentRow">
-	<div  name="{{- post.title | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}" border="1" border-color="grey" class="divTableCell"><strong><span class="FR">{{- post.name_fr -}}</span><hr class="trait"><span class="EN">{{- post.name_en -}}</span></strong></div>
+	<div border="1" border-color="grey" class="divTableCell"><strong><span class="FR">{{- post.name_fr -}}</span><hr class="trait"><span class="EN">{{- post.name_en -}}</span></strong></div>
 	<div class="divTableCell">
 		{%- for cat in post.categories -%}
 			{%- assign lang = cat | slice: 0, 3 -%}
