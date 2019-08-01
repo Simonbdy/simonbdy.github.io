@@ -15,7 +15,7 @@ layout: default
 {%- assign exist = 0 -%}
 {%- for post in sorted_post -%}
 {%- if post -%}
-{%- assign exist = 0 -%}
+{%- assign exist = 1 -%}
 {%- if first_line == 0 -%}
 <div class="divTable" style="display: table;">
 	<div class="divTableBody">
