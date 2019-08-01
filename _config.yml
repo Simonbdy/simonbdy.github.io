@@ -4,7 +4,7 @@ description: A dictionnary project for mechanical terms
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
-permalink: /:categories/:title
+permalink: /:title
 kramdown:
     auto_ids: true
 exclude:
