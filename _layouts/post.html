@@ -3,10 +3,53 @@ layout: default
 ---
 <h2><span class="FR">{{ page.name_fr | replace: "_", " "| capitalize }}</span> | <span class="EN">{{ page.name_en | replace: "_", " "| capitalize }}</span></h2>
 
-<a href="/index">&#91;Full list&#93;</a> <a href="/categories">&#91;Category page&#93;</a> Browse by letters: <a href="/alphabet_fr">&#91;French&#93;</a><a href="/alphabet_en">&#91;English&#93;</a>
+<a href="/index">&#91;Full list&#93;</a>&nbsp;<a href="/categories">&#91;Category page&#93;</a>&nbsp;Browse by letters: <a href="/alphabet_fr">&#91;French&#93;</a>&nbsp;<a href="/alphabet_en">&#91;English&#93;</a>
+<p><small>Last update: {{ page.date | date: "%-d %B %Y" }}</small></p>
+<br />
 
-<small>Last update: {{ page.date | date: "%-d %B %Y" }}</small>
+<hr class="trait">
 <br /><br />
 
-<!--<p class="view">by {{ page.author | default: site.author }}</p>-->
+<a href="#fiche_fr">&#91;French&#93;</a>&nbsp;<a href="#fiche_en">&#91;English&#93;</a>&nbsp;<a href="#illustrations">&#91;Illustrations&#93;</a>
+<br /><br />
 
+<a name="fiche_fr"></a>
+<div class="fiche">
+<h3 class="FR">{{ page.name_fr | replace: "_", " "| capitalize }}</h3><hr>
+<strong>Catégorie(s)</strong>
+<p>{%- for cat in page.categories -%}
+	{%- assign lang = cat | slice: 0, 3 -%}
+	{%- if lang == "FR_" -%}
+		<a href="categories.html#{{- cat | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}">{{- cat | remove: 'FR_' | remove: 'Fr_' | remove: 'fr_'| capitalize | strip_newlines -}}</a>&nbsp;
+	{%- endif -%}
+{%- endfor -%}</p>
+<strong>Description</strong>
+<p>{%- if page.desc_fr -%}{{ page.desc_fr }}{%- else -%}No description yet.{%- endif -%}</p>
+</div>
+
+<a name="fiche_en"></a>
+<div class="fiche">
+<h3 class="EN">{{ page.name_en | replace: "_", " "| capitalize }}</h3><hr>
+<strong>Categorie(s)</strong>
+<p>{%- for cat in page.categories -%}
+	{%- assign lang = cat | slice: 0, 3 -%}
+	{%- if lang == "EN_" -%}
+		<a href="categories.html#{{- cat | downcase | replace:'é','e' | replace:' ','_' | replace:',','-' | replace:'/','' -}}">{{- cat | remove: 'EN_' | remove: 'En_' | remove: 'en_'| capitalize | strip_newlines -}}</a>&nbsp;
+	{%- endif -%}
+{%- endfor -%}</p>
+<strong>Description</strong>
+<p>{%- if page.desc_en -%}{{ page.desc_en }}{%- else -%}No description yet.{%- endif -%}</p>
+</div>
+
+<a name="illustrations"></a>
+<div class="fiche">
+<h3>Illustrations</h3>
+{%- for img in page.img -%}
+	{%- if img -%}
+		<a href="/assets/img/{{- img | strip_newlines -}}" target="_blank"><img class="img" src="/assets/img/{{- img | strip_newlines -}}"></a>
+		<br />
+	{%- else -%}
+		No illustration yet.
+	{%- endif -%}
+{%- endfor -%}
+</div>
