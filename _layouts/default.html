@@ -26,7 +26,7 @@
         <h2>{{ site.title | default: site.github.project_tagline }}</h2>
         <h4>{{ site.description | default: site.github.project_tagline }}</h4>
 
-    <b>English:</b></li>
+    <a name="list_en"></a><b>English:</b><small>&nbsp;<a href="#list_fr">&#91;Go to French&#93;</a></small></li>
     <ul>
   		{%- assign sorted_post = site.posts | sort: 'title' -%}
   		{%- for post in sorted_post -%}
@@ -36,7 +36,7 @@
   		{%- endfor -%}
     </ul>
 	
-	    <b>Français :</b></li>
+      <a name="list_fr"></a><b>French:</b><small>&nbsp;<a href="#list_en">&#91;Go to English&#93;</a></small></li>
     <ul>
   		{%- assign sorted_post = site.posts | sort: 'name_fr' -%}
   		{%- for post in sorted_post -%}
@@ -62,7 +62,7 @@
 
       </section>
       <footer>
-        <p><small>
+        <p><small><br /><br />
         Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a><br />
   >> A question? <a href="https://github.com/Simonbdy" target="_blank">Send an email</a>
 		</small></p>
