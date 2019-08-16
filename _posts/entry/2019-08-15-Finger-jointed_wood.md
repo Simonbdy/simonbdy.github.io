@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ZZZ-No-name-found-5
+title: Finger-jointed_wood
 name_fr: Bois abouté
-name_en: No name found
+name_en: Finger-jointed wood
 desc_fr: Bois d'ingénierie fabriqué à partir de courtes pièces de bois sec dont les extrémités sont emboîtées et collées les unes aux autres à l'aide d'un adhésif hydrofuge, afin de former une pièce de bois unique et plus longue.
 desc_en: 
 img: []

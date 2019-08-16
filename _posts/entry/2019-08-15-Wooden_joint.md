@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ZZZ-No-name-found-8
+title: Wooden_joint
 name_fr: Assemblage en bois
-name_en: No name found
+name_en: Wooden joint
 desc_fr: 
 desc_en: 
 img: []
