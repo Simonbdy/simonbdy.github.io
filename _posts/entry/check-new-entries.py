@@ -41,21 +41,31 @@ def csv_to_md():
 				desc_en = row[5].replace("\n", " ").replace(":","&#58;").replace("/", "&#47;")
 				
 				# prend seulement le nom du fichier et supprime l'adresse avant le premier "/" par la droite
+
 				if row[6] == "":
 					img[0] = None
 				else:
-					img[0] = row[6][row[6].rindex("/"):].replace("/", "")
-					
+					if "/" not in row[6]:
+						img[0] = img[0] = row[6]
+					else:						
+						img[0] = row[6][row[6].rindex("/"):].replace("/", "")
+
 				if row[7] == "":
 					img[1] = None
 				else:
-					img[1] = row[7][row[7].rindex("/"):].replace("/", "")
-				
+					if "/" not in row[7]:
+						img[1] = img[1] = row[7]
+					else:						
+						img[1] = row[7][row[7].rindex("/"):].replace("/", "")
+
 				if row[8] == "":
 					img[2] = None
 				else:
-					img[2] = row[8][row[8].rindex("/"):].replace("/", "")
-				
+					if "/" not in row[8]:
+						img[2] = img[2] = row[8]
+					else:						
+						img[2] = row[8][row[8].rindex("/"):].replace("/", "")
+									
 				# Transforme la source en lien
 				if row[9] == "":
 					src = ""
